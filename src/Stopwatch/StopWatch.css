@@ -1,0 +1,25 @@
+.stop-watch {
+	height: 85vh;
+	width: 23vw;
+	background-color: #0d0c1b;
+	display: flex;
+	flex-direction: column;
+    border-radius: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+.center{
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+@media screen and (max-width:1010px) {
+	.stop-watch{
+		width: 90%;
+	}
+	
+}
